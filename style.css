@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("/08bOYnH_r_E.jpg") no-repeat center center fixed;
+    background-size: cover;
+    max-width: 100%;
+    max-height: auto;
+}
+.container{
+    color: black;
+    position: absolute;
+    top: 195px;
+    left: 45%;
+    display: inline-block;
+    padding: 25px;
+
+}
+.container:hover{
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 0 30px 50px 0 rgba(0,0,0,0.3);
+
+}
+.container h1{
+    font-size: 2em;
+    font-family: 'Prosto One', cursive;
+    margin: 20px 10px;
+    padding: 10px;
+    text-shadow: 0 2px 3px black;
+}
+.box{
+    
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.box i{
+    min-width: 40px;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: black;
+    border: 2px solid black;
+}
+
+.box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    background: none;
+    
+
+    /* border-bottom: 2px solid black; */
+}
+
+.box input:hover,i:hover{
+    border: 2px solid black;
+    background: black;
+    color: white;
+    box-shadow: 2px 10px 20px rgba(0,0,0,0.3);
+}
+    
+    
+
+#email{
+    padding-bottom: 10px;
+}
+
+#email{
+    margin-bottom: 10px;
+}
+
+/* style the submit button */
+.inputbtn input[type="submit"]{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 75%;
+    margin: 0 15%;
+    border: 2px solid black;
+    color: black;
+    font-size: 105%;
+    padding: 8px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: none;
+
+
+}
+.inputbtn input[type="submit"]:hover{
+    background: black;
+    color: white;
+}
